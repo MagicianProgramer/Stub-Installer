@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{c68a984c-8a56-4b57-a915-723dc6d770a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\zlib">
+      <UniqueIdentifier>{b9163855-ee15-485d-9a66-cb44eb5986fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\log">
+      <UniqueIdentifier>{8bcf5e5b-e0cb-4cac-b91d-f617b436379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\libcurl">
+      <UniqueIdentifier>{2fc692d9-f46d-41ac-9907-8216cc3cd1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="downloader">
+      <UniqueIdentifier>{94bbec41-ef35-4e6d-a31f-bfd1d58f6129}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Stub.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Stub.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NoInterface.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TemplateLogo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StubDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\CMyFile.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\other.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\regstr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\TRegistry.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\crc32.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\deflate.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\gzguts.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inffast.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inffixed.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inflate.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inftrees.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\Process.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\trees.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zconf.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zlib.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zutil.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\log\Log.h">
+      <Filter>common\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Hyperlink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StubOptionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StubLicenseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SHA1.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\downloader.h">
+      <Filter>common\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="CDownloaderDlg1.h">
+      <Filter>downloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StubDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\CMyFile.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\other.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\TRegistry.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\adler32.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\compress.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\crc32.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\deflate.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\infback.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inffast.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inflate.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inftrees.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\trees.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\uncompr.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\zutil.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\log\Log.cpp">
+      <Filter>common\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Hyperlink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StubOptionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StubLicenseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SHA1.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\downloader.cpp">
+      <Filter>common\libcurl</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownloaderDlg1.cpp">
+      <Filter>downloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Stub.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
