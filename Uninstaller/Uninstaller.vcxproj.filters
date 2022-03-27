@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{a2efc82b-6699-446c-a212-f5ee3bc3265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wizard">
+      <UniqueIdentifier>{c61924fb-a52d-4113-b431-e44af1dd3f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{961589cf-1361-4604-a313-5e0a0d4aae85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Uninstaller.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Uninstaller.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Uninstaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UninstallerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uninst.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\regstr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\TRegistry.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardUninstallerSheet.h">
+      <Filter>wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CWizardUninstWelcomePage.h">
+      <Filter>wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlankMainDlg.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="BlankSheet.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUninstPage.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="CWizardUninstFinishPage.h">
+      <Filter>wizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CWizardUninstProgPage.h">
+      <Filter>wizard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Uninstaller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UninstallerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uninst.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\TRegistry.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardUninstallerSheet.cpp">
+      <Filter>wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CWizardUninstWelcomePage.cpp">
+      <Filter>wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlankMainDlg.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="BlankSheet.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUninstPage.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="CWizardUninstFinishPage.cpp">
+      <Filter>wizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CWizardUninstProgPage.cpp">
+      <Filter>wizard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Uninstaller.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
