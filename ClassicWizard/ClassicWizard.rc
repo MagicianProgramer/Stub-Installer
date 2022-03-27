@@ -1,0 +1,555 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Wizard97Test.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WIZ97_HEADER        BITMAP                  "res\\header.bmp"
+
+IDB_WIZ97_WATERMARK     BITMAP                  "res\\watermark.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WIZ97_WELCOME DIALOGEX 0, 0, 317, 227
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Welcome Installation"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Welcome to the Test Wizard",IDC_STATIC_WELCOME_TITLE,115,8,195,24
+    LTEXT           "This wizard will take you through an example of a Wizard97-based wizard.  The steps include:",IDC_STATIC_WELCOME_PRODUCT,115,51,195,16
+    LTEXT           "Click Next to continue, or Cancel to exit Setup.",IDC_WIZ97_BULLET1_DESC,115,74,183,8
+    LTEXT           "Copyright (c) 2021",IDC_STATIC_WELCOME_COPYRIGHT,115,212,63,8
+    CONTROL         "<a>com</a>",IDC_SYSLINK_COMPANY,"SysLink",WS_TABSTOP,179,212,123,8
+    LTEXT           "Click Next to continue, or Cancel to exit Setup.",IDC_WIZ97_BULLET1_DESCIPTION,115,91,192,39
+END
+
+IDD_WIZ97_COMPLETION DIALOGEX 0, 0, 317, 170
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Completing Installation"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Completed !",IDC_WIZ97_EXTERIOR_TITLE,116,8,201,26
+    LTEXT           "New Product 1.0 has been installed on your computer.",IDC_WIZ97_EXTERIOR_DESC_COMPLETE,115,52,195,16
+    LTEXT           "Click Finish to exit Setup.",IDC_WIZ97_EXTERIOR_CLICKFINISH,115,72,191,8,SS_NOPREFIX
+    CONTROL         "Launch Application",IDC_CHECK_FINISH_LAUNCH_APPLICATION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,110,189,16
+    CONTROL         "Custom Action",IDC_CHECK_FINISH_CUSTOM_ACTION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,134,189,10
+END
+
+IDD_DLG_LICENSE_AGREE DIALOGEX 0, 0, 317, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "License Agreement"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "I accept the agreement",IDC_CHECK_WIZ97_LIC_AGREEMENT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,168,192,10
+    CONTROL         "",IDC_EDIT_WIZ97_LICAGREE,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL,7,7,302,159,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_DLG_READ_ME DIALOGEX 0, 0, 317, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Read Me"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EDIT_WIZ97_READ_ME,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL,7,22,301,155,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "When you are ready to continue with seup, click next.",IDC_LABEL_DESCRIPTION,8,9,275,8
+END
+
+IDD_DLG_ADDITIONAL_INFORMAION DIALOGEX 0, 0, 317, 143
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Additional Information"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Please provide information.",IDC_LABEL_DESCRIPTION,21,3,89,8
+    LTEXT           "Name :*",IDC_STATIC_USER_NAME,21,15,265,8
+    EDITTEXT        IDC_EDIT_USER_NAME,21,24,265,12,ES_AUTOHSCROLL
+    LTEXT           "Company :*",IDC_STATIC_COMPANY,21,65,265,8
+    EDITTEXT        IDC_EDIT_COMPANY,21,74,265,12,ES_AUTOHSCROLL
+    LTEXT           "Filed Text :*",IDC_STATIC_CUSTOM_FIELD,21,90,265,8
+    EDITTEXT        IDC_EDIT_CUSTOM_FIELD,21,99,265,12,ES_AUTOHSCROLL
+    LTEXT           "Serial Number :*",IDC_STATIC_SERIAL_NUMBER,21,115,265,8
+    EDITTEXT        IDC_EDIT_SERIAL_NUMBER,21,124,265,12,ES_AUTOHSCROLL
+    LTEXT           "Email :*",IDC_STATIC_USER_EMAIL,21,39,265,8
+    EDITTEXT        IDC_EDIT_USER_EMAIL,21,49,265,12,ES_AUTOHSCROLL
+END
+
+IDD_DLG_APP_FOLDER DIALOGEX 0, 0, 317, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Select Application Folder"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_DEST_FOLDER,31,55,233,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&...",IDC_BTN_FOLDER_BROWSE,271,55,22,12
+    LTEXT           "Custom Combobox:",IDC_LABEL_CUSTOM_COMBOBOX,21,96,241,8
+    COMBOBOX        IDC_COMBO_CUSTOM_COMBOBOX,31,108,255,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select Components :",IDC_LABEL_SEL_COMPONENTS,21,125,246,8
+    LTEXT           "Select Components Description :",IDC_LABEL_SEL_COMPONENTS_DESCRIPTION,31,164,242,8
+    LISTBOX         IDC_LIST_SELECT_COMPONENTS,31,136,255,26,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Static",IDC_STATIC,21,43,275,52
+    LTEXT           "Required Free Space : 0 byte",IDC_STATIC_REQUIRED_FREE_SPACE,44,71,242,8
+    LTEXT           "Available Free Space : 20 GB",IDC_STATIC_AVAILABLE_SPACE,44,83,242,8
+    GROUPBOX        "Install Product for",IDC_STATIC,21,2,275,37
+    CONTROL         "Current User",IDC_RADIO_INSTALL_PRODUCT_FOR_CURRENT_USER,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,33,14,248,8
+    CONTROL         "All users on this computer",IDC_RADIO_INSTALL_PRODUCT_FOR_ALL_USERS,
+                    "Button",BS_AUTORADIOBUTTON,33,26,249,10
+END
+
+IDD_DLG_ADDITIONAL_TASK DIALOGEX 0, 0, 317, 143
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Additional Tasks"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Select the additional tasks you would like Setup to perform while installing, then click Next.",IDC_WIZ97_EXTERIOR_DESC,21,12,274,16
+    CONTROL         "Check Box",IDC_CHECK_CHECK_BOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,101,275,10
+    CONTROL         "Create shortcuts in Start Menu",IDC_CHECK_CREATE_SHORTCUTS_IN_START_MENU,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,35,265,10
+    CONTROL         "Create shortcut on Desktop",IDC_CHECK_CREATE_SHORTCUTS_ON_DESKTOP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,81,265,10
+    LTEXT           "Program group name :",IDC_STATIC,31,48,255,8
+    COMBOBOX        IDC_COMBO_PROGRAM_GROUP_NAME,30,59,256,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_READY_TO_INSTALL DIALOGEX 0, 0, 317, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Ready to Install"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EDIT_WIZ97_INSALL_DETAIL,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL,21,34,275,140,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "Click Install to continue with the installation.",IDC_WIZ97_EXTERIOR_DESC,22,9,274,8
+    CONTROL         "",IDC_PROG_INSTALL,"msctls_progress32",WS_BORDER,21,22,275,10
+END
+
+IDD_DLG_ALREADY_INSTALLED DIALOGEX 0, 0, 317, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Already Installed"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Repair",IDC_RADIO_ALREADY_INSTALLED_REPAIR,"Button",BS_AUTORADIOBUTTON,21,47,74,10
+    CONTROL         "Uninstall",IDC_RADIO_ALREADY_INSTALLED_UNINSTALL,"Button",BS_AUTORADIOBUTTON,21,62,74,10
+    CONTROL         "",IDC_PROGRESS_ALREADY_INSTALLED,"msctls_progress32",WS_BORDER,21,91,265,14
+    LTEXT           "",IDC_STATIC_ALREADY_INSTALLED_STS,21,79,265,8
+    LTEXT           "Static",IDC_STATIC_ALREADY_INSTALLED_NOTICE,21,10,265,27
+END
+
+IDD_DIALOG_DOWNLOADER DIALOGEX 0, 0, 309, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Title"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Abort Download",IDC_BUTTON_ABORT_DOWNLOAD,227,43,67,12
+    LTEXT           "Downloading :",IDC_STATIC_DOWN_PREREQUISITE,10,7,260,8
+    CONTROL         "",IDC_PROGRESS_DOWNLOADING,"msctls_progress32",WS_BORDER,8,22,291,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_WIZ97_WELCOME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 310
+        VERTGUIDE, 115
+        VERTGUIDE, 118
+        VERTGUIDE, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+        HORZGUIDE, 8
+        HORZGUIDE, 32
+        HORZGUIDE, 40
+        HORZGUIDE, 169
+    END
+
+    IDD_WIZ97_COMPLETION, DIALOG
+    BEGIN
+        RIGHTMARGIN, 310
+        VERTGUIDE, 115
+        VERTGUIDE, 117
+        VERTGUIDE, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+        HORZGUIDE, 8
+        HORZGUIDE, 32
+        HORZGUIDE, 40
+        HORZGUIDE, 169
+    END
+
+    IDD_DLG_LICENSE_AGREE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+        HORZGUIDE, 8
+    END
+
+    IDD_DLG_READ_ME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+        HORZGUIDE, 8
+    END
+
+    IDD_DLG_ADDITIONAL_INFORMAION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+        HORZGUIDE, 8
+    END
+
+    IDD_DLG_APP_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DLG_ADDITIONAL_TASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+        HORZGUIDE, 8
+    END
+
+    IDD_DLG_READY_TO_INSTALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+        HORZGUIDE, 8
+    END
+
+    IDD_DLG_ALREADY_INSTALLED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 21
+        VERTGUIDE, 31
+        VERTGUIDE, 43
+        VERTGUIDE, 92
+        VERTGUIDE, 98
+        VERTGUIDE, 286
+        VERTGUIDE, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+        HORZGUIDE, 8
+    END
+
+    IDD_DIALOG_DOWNLOADER, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "WTL Inc."
+            VALUE "FileDescription", "Wizard97 Test"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "Wizard97Test"
+            VALUE "LegalCopyright", "Copyright 2005"
+            VALUE "OriginalFilename", "Wizard97Test.exe"
+            VALUE "ProductName", "Wizard97 Test"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DLG_LICENSE_AGREE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_READ_ME AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_ADDITIONAL_INFORMAION AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_APP_FOLDER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_ADDITIONAL_TASK AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_READY_TO_INSTALL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WIZ97_WELCOME AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WIZ97_COMPLETION AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_DOWNLOADER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_ALREADY_INSTALLED AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCSIZE          "Change the window size"
+    ATL_IDS_SCMOVE          "Change the window position"
+    ATL_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    ATL_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    ATL_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    ATL_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    ATL_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCRESTORE       "Restore the window to normal size"
+    ATL_IDS_SCTASKLIST      "Activate Task List"
+    ATL_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_MRU_FILE        "Open this document"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

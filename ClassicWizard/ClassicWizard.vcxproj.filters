@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3049b276-474a-4c47-a6db-0dc391738c47}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Wizard Source Files">
+      <UniqueIdentifier>{6a78417b-5449-45fc-b981-79e0460827c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3d53dcaa-5b59-4bf7-b017-72c2e933e0fe}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Wizard Header Files">
+      <UniqueIdentifier>{06069cbb-1e73-4f13-b763-99d4960ab780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e585f6da-9008-4d4a-84f5-426fc23169df}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Image Resource Files">
+      <UniqueIdentifier>{90ecb0ed-4200-4f89-b085-ff2993db3724}</UniqueIdentifier>
+      <Extensions>bmp;ico</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Help Resource Files">
+      <UniqueIdentifier>{4bb8c5ba-2429-45c1-8bfc-8645c97fd8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pages">
+      <UniqueIdentifier>{42562673-f133-49b1-9a22-762cbd2f68cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0ce80f15-de14-489c-a701-3ae2dd15839e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\zlib">
+      <UniqueIdentifier>{b22fcbb6-771d-466a-8846-b8652139fe0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\log">
+      <UniqueIdentifier>{df605611-a47c-47e8-9714-aaa345aeeaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\libcurl">
+      <UniqueIdentifier>{9ae00b1c-49b8-4744-ad3d-deea787c93b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="downloader">
+      <UniqueIdentifier>{bf212285-2f3d-4f58-abc1-42fd227f57de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard97Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\TestWizard.cpp">
+      <Filter>Source Files\Wizard Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\TestWizardSheet.cpp">
+      <Filter>Source Files\Wizard Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CLicAgreePage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CReadMePage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CAddInfoPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CAddTaskPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CAppFolderPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CReadyToInstPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\TestWizardInfo.cpp">
+      <Filter>Source Files\Wizard Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\CMyFile.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\other.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\TRegistry.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\crc32.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\adler32.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\compress.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\deflate.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\infback.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inffast.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inflate.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\inftrees.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\trees.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\uncompr.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\zlib\zutil.c">
+      <Filter>common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SHA1.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\TestWizardWelcomePage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\TestWizardCompletionPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\log\Log.cpp">
+      <Filter>common\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard\CAlreadyInstalledPage.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\downloader.cpp">
+      <Filter>common\libcurl</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownloaderDlg.cpp">
+      <Filter>downloader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\FolderDialogStatusText.h">
+      <Filter>Header Files\Wizard Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\TestWizard.h">
+      <Filter>Header Files\Wizard Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\TestWizardSheet.h">
+      <Filter>Header Files\Wizard Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CLicAgreePage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CReadMePage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CAddInfoPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CAddTaskPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CAppFolderPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CReadyToInstPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\TestWizardInfo.h">
+      <Filter>Header Files\Wizard Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\CMyFile.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\other.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\regstr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\TRegistry.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\crc32.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\deflate.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\gzguts.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inffast.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inffixed.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inflate.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\inftrees.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\Process.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\trees.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zconf.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zlib.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\zlib\zutil.h">
+      <Filter>common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SHA1.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SimpleHtml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\TestWizardCompletionPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\TestWizardWelcomePage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\log\Log.h">
+      <Filter>common\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard\CAlreadyInstalledPage.h">
+      <Filter>pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\downloader.h">
+      <Filter>common\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="CDownloaderDlg.h">
+      <Filter>downloader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClassicWizard.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\header.bmp">
+      <Filter>Resource Files\Image Resource Files</Filter>
+    </None>
+    <None Include="res\watermark.bmp">
+      <Filter>Resource Files\Image Resource Files</Filter>
+    </None>
+    <None Include="res\Wizard97Test.ico">
+      <Filter>Resource Files\Image Resource Files</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>Resource Files\Help Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
